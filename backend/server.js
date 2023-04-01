@@ -4,6 +4,7 @@ const cors = require("cors")
 const app = express()
 const todoRoute = require("./todoRoute/todoRoute")
 const blogRoute = require("./todoRoute/blogRoute")
+require("dotenv").config({path:"./.env"})
 connetDB()
 
 //body parser
